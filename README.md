@@ -21,7 +21,7 @@ Tarea_1_Game_Of_Life/
 - visualization.py
 - benchmark.py
 - README.md
-- 
+
 ### Explicación de los Archivos
 ### main.py
 
@@ -33,7 +33,7 @@ Contiene la clase GameOfLifey toda la lógica del juego, incluyendo las reglas y
 
 ### patrones.py
 
-###Incluye patrones clásicos como:
+### Incluye patrones clásicos como:
 
 Planeador
 Intermitente
