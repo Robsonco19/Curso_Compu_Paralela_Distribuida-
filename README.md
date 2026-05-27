@@ -14,13 +14,13 @@ Visualización gráfica
 Medición de rendimiento
 Estructura del Proyecto
 Tarea_1_Game_Of_Life/
-│
-├── main.py
-├── game_of_life.py
-├── patterns.py
-├── visualization.py
-├── benchmark.py
-├── README.md
+
+- main.py
+- game_of_life.py
+- patterns.py
+- visualization.py
+- benchmark.py
+- README.md
 Explicación de los Archivos
 main.py
 
