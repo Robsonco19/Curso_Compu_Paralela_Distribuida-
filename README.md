@@ -55,12 +55,12 @@ Cómo Ejecutar
 Ejecutar el siguiente comando dentro de la carpeta del proyecto:
 
 python main.py
-Opciones del Programa
-1 - Tablero Aleatorio
-2 - Glider
-3 - Blinker
-4 - Toad
-5 - Benchmark
+Opciones del Programa:
+1. Tablero Aleatorio
+2. Glider
+3. Blinker
+4. Toad
+5. Benchmark
 Reglas del Juego
 Una celda viva con menos de 2 vecinos vivos muere.
 Una celda viva con más de 3 vecinos vivos muere.
