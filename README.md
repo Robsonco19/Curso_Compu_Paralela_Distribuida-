@@ -61,6 +61,7 @@ Opciones del Programa:
 3. Blinker
 4. Toad
 5. Benchmark
+   
 Reglas del Juego
 Una celda viva con menos de 2 vecinos vivos muere.
 Una celda viva con más de 3 vecinos vivos muere.
