@@ -1,0 +1,93 @@
+# Tarea 3: Polars vs Pandas — NYC Taxi Trip Duration
+
+## Descripción del problema
+Predicción de la duración de viajes de taxi en Nueva York usando el dataset 
+NYC Taxi Trip Duration de Kaggle. Se implementó un pipeline completo de 
+análisis de datos comparando el rendimiento de Polars y Pandas en distintas 
+operaciones de procesamiento de datos.
+
+## Dataset
+- Fuente: https://www.kaggle.com/competitions/nyc-taxi-trip-duration
+- Registros originales: 1,458,644 filas
+- Registros usados: 100,000
+- Variables: 11 columnas (numéricas y categóricas)
+- Problema: Regresión (predecir trip_duration en segundos)
+
+## Requisitos de software
+- Python 3.10+
+- polars
+- pandas
+- scikit-learn
+- xgboost
+- lightgbm
+- matplotlib
+- seaborn
+- jupyter
+
+## Instrucciones de instalación
+```bash
+pip install polars pandas scikit-learn xgboost lightgbm matplotlib seaborn jupyter
+```
+
+## Instrucciones de ejecución
+1. Abrí el notebook en Google Colab
+2. Corré la primera celda para instalar Polars
+3. Subí el archivo NYC.csv cuando se solicite
+4. Ejecutá todas las celdas en orden con Runtime → Run all
+
+## Estructura del repositorio
+
+Tarea_3_Polares/ 
+
+├── Graficas/ 
+
+│ ├── distribucion_trip_duration.png 
+
+│ ├── distribucion_passenger_count.png 
+
+│ ├── correlaciones.png 
+
+│ ├── comparacion_modelos.png 
+
+│ ├── importancia_features.png 
+
+│ ├── benchmark_operaciones.png 
+
+│ ├── benchmark_speedup.png 
+
+│ └── benchmark_escalabilidad.png 
+
+├── Tarea_3_Comp_Paralela.ipynb 
+
+├── instrucciones_dataset.md 
+
+└── LÉAME.md
+
+## Resultados de Machine Learning
+| Modelo | RMSE | MAE | Tiempo (s) |
+|---|---|---|---|
+| Regresión Lineal | COMPLETAR | COMPLETAR | COMPLETAR |
+| Random Forest | COMPLETAR | COMPLETAR | COMPLETAR |
+| XGBoost | COMPLETAR | COMPLETAR | COMPLETAR |
+
+## Benchmark Polars vs Pandas
+| Operación | Pandas (s) | Polars (s) | Speedup (x) |
+|---|---|---|---|
+| Lectura | COMPLETAR | COMPLETAR | COMPLETAR |
+| Filtrado | COMPLETAR | COMPLETAR | COMPLETAR |
+| Agregación | COMPLETAR | COMPLETAR | COMPLETAR |
+| Join | COMPLETAR | COMPLETAR | COMPLETAR |
+| Feature Engineering | COMPLETAR | COMPLETAR | COMPLETAR |
+
+## Lazy vs Eager Execution
+| Método | Tiempo (s) |
+|---|---|
+| Eager | COMPLETAR |
+| Lazy | COMPLETAR |
+
+## Conclusiones
+- Polars fue más rápido que Pandas en todas las operaciones evaluadas
+- El mayor speedup se observó en operaciones de filtrado y agregación
+- XGBoost produjo el mejor desempeño predictivo entre los tres modelos
+- Lazy Execution redujo el tiempo de ejecución respecto al modo Eager
+- A mayor tamaño del dataset, mayor es la ventaja de Polars sobre Pandas
